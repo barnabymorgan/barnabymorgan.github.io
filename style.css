@@ -1,0 +1,35 @@
+.vertical-menu {
+  width: 50px; /* Width of menu */
+  position: absolute;
+  top: 8px;
+  right: 18px;
+}
+
+.vertical-menu a {
+  color: black; /* Black text color */
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 0 6px;
+  outline: 0;
+  padding: 0 5px;
+  text-align: right;
+  text-decoration: none;
+  transition: color .5s .1s;
+  font-family: GraebenbachMono-Regular, monospace;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  position: absolute;
+  right: 75px;
+  top: 3px;
+  background-color: #000000; /* Add a green color to the "active/current" link */
+  color: white;
+}
